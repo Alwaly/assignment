@@ -40,3 +40,8 @@ folders_names = [
                     ]
 files = ['README.md','LICENSE', 'Makefile', 'requirements.txt']
 
+
+if __name__=="__main__":
+    create_first_rank_folder_subfolders_and_subfiles()
+    create_first_rank_file()
+    create_file("src/utils.py")
