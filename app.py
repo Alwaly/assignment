@@ -27,3 +27,16 @@ def create_first_rank_folder_subfolders_and_subfiles():
             except:
                 continue
 
+
+
+
+folders_names = [
+                    {"folder":{"nom":"data", "subfolder":["cleaned", "raw", "processed"]}},
+                      {"folder":{"nom":"docs"}}, 
+                      {"folder":{"nom":"models"}},
+                      {"folder":{"nom":"notebooks","file":["main_notebook.ipynb"]}}, 
+                      {"folder":{"nom":"reports"}},
+                      {"folder":{"nom":"src","file":["utils.py","process.py","train.py"]}}
+                    ]
+files = ['README.md','LICENSE', 'Makefile', 'requirements.txt']
+
